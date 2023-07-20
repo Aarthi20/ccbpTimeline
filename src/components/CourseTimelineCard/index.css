@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.course-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #171f46;
+}
+.title-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: bold;
+}
+.duration {
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.duration-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tag-item {
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #e2e8f1;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 10px;
+}

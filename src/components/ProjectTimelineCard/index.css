@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.project-line-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #171f46;
+}
+.project-image {
+  width: 320px;
+}
+.title-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.duration-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.duration {
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.description {
+  font-size: 13px;
+  font-weight: 500;
+}
+a {
+  font-size: 17px;
+  text-decoration: none;
+  font-weight: bold;
+}
